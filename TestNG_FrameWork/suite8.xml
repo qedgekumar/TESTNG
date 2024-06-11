@@ -1,0 +1,32 @@
+<suite name="primusBank">
+<test name="BranchCreationReport">
+<parameter name="Url" value="http://primusbank.qedgetech.com/">
+</parameter>
+<parameter name="username" value="Admin">
+</parameter>
+<parameter name="password" value="Admin">
+</parameter>
+<parameter name="Bname" value="srnagar">
+</parameter>
+<parameter name="Address1" value="kphb">
+</parameter>
+<parameter name="Address2" value="dilskunagar">
+</parameter>
+<parameter name="Address3" value="madapur">
+</parameter>
+<parameter name="Area" value="lakidikupul">
+</parameter>
+<parameter name="Zipcode" value="12345">
+</parameter>
+<parameter name="Country" value="INDIA">
+</parameter>
+<parameter name="State" value="GOA">
+</parameter>
+<parameter name="City" value="GOA">
+</parameter>
+<classes>
+<class name="dec31.Primus_parameters">
+</class>
+</classes>
+</test>
+</suite>

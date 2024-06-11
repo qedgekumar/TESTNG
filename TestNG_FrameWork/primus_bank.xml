@@ -1,0 +1,33 @@
+<suite name = "primusBank">
+<test name ="BranchcreationReport">
+<parameter name ="url" value ="http://primusbank.qedgetech.com/">
+</parameter>
+<parameter name ="username" value ="Admin">
+</parameter>
+<parameter name ="password" value ="Admin">
+</parameter>
+<parameter name ="Bname" value ="srnagar">
+</parameter>
+<parameter name ="Address1" value ="ameerpet">
+</parameter>
+<parameter name ="Address2" value="kphb">
+</parameter>
+<parameter name ="Address3" value="koti">
+</parameter>
+<parameter name ="Area" value="srnagar">
+</parameter>
+<parameter name = "Zipcode" value ="12365">
+</parameter>
+<parameter name ="Country" value="USA">
+</parameter>
+<parameter name ="State" value="NewYork">
+</parameter>
+<parameter name ="City" value="Watertown">
+</parameter>
+<classes>
+<class name = "dec15.Primus_parameters">
+</class>
+</classes>
+</test>
+</suite>
+

@@ -1,0 +1,18 @@
+<suite name="CrossBrowser1">
+<test name="Chrometest1">
+<parameter name="Browser" value="chrome">
+<classes>
+<class name="jan1.Cross">
+</class>
+</classes>
+</parameter>
+</test>
+<test name="Firefoxtest1">
+<parameter name="Browser" value="firefox">
+<classes>
+<class name="jan1.Cross">
+</class>
+</classes>
+</parameter>
+</test>
+</suite>

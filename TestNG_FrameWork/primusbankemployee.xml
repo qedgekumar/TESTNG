@@ -1,0 +1,22 @@
+<suite name ="PrimusBank">
+<test name ="EmployeeCreationReport">
+<parameter name ="url" value="http://primusbank.qedgetech.com/">
+</parameter>
+<parameter name ="username" value ="Admin">
+</parameter>
+<parameter name="password" value="Admin">
+</parameter>
+<parameter name="Employer Name" value="pavan">
+</parameter>
+<parameter name="Login Password" value="pa1@">
+</parameter>
+<parameter name="Role" value="Manager">
+</parameter>
+<parameter name="Branch" value="Kadiri">
+</parameter>
+<classes>
+<class name="dec16.Primus_parameters2">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,20 @@
+<suite name ="PrimusBank">
+<test name ="RoleCreationReport">
+<parameter name ="url" value="http://primusbank.qedgetech.com/">
+</parameter>
+<parameter name ="username" value="Admin">
+</parameter>
+<parameter name ="password" value="Admin">
+</parameter>
+<parameter name ="Role Name" value="clerk">
+</parameter>
+<parameter name="Role Desc" value="account clerk">
+</parameter>
+<parameter name="Role Type" value="E">
+</parameter>
+<classes>
+<class name ="dec16.Primus_parameters1">
+</class>
+</classes>
+</test>
+</suite>

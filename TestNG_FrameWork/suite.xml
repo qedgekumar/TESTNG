@@ -1,0 +1,14 @@
+
+
+<suite name="pavan">
+<test name="mrngbatchreport">
+<classes>
+<class name ="dec12.FirstTestNGClass">
+</class>
+<class name="dec12.SecondTestNGClass">
+</class>
+<class name="dec12.ThirdTestNGClass">
+</class>
+</classes>
+</test>
+</suite>

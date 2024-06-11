@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login success::http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard  dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials  dashboard  http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials  dashboard  http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Login success::http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard  dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Login success::http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard  dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials  dashboard  http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials  dashboard  http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Login success::http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard  dashboard]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-02T17:42:49 IST" name="CrossBrowser1" finished-at="2024-01-02T17:43:09 IST" duration-ms="19874">
+    <groups>
+    </groups>
+    <test started-at="2024-01-02T17:42:49 IST" name="Chrometest1" finished-at="2024-01-02T17:42:57 IST" duration-ms="8059">
+      <class name="jan1.Cross">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:jan1.Cross@5fbdfdcf]" started-at="2024-01-02T17:42:49 IST" name="setup" finished-at="2024-01-02T17:42:51 IST" duration-ms="2430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AdminLogin(java.lang.String,java.lang.String)[pri:0, instance:jan1.Cross@5fbdfdcf]" started-at="2024-01-02T17:42:51 IST" name="AdminLogin" data-provider="dp" finished-at="2024-01-02T17:42:54 IST" duration-ms="2675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login success::http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard  dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method signature="AdminLogin(java.lang.String,java.lang.String)[pri:0, instance:jan1.Cross@5fbdfdcf]" started-at="2024-01-02T17:42:54 IST" name="AdminLogin" data-provider="dp" finished-at="2024-01-02T17:42:55 IST" duration-ms="818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials  dashboard  http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method signature="AdminLogin(java.lang.String,java.lang.String)[pri:0, instance:jan1.Cross@5fbdfdcf]" started-at="2024-01-02T17:42:55 IST" name="AdminLogin" data-provider="dp" finished-at="2024-01-02T17:42:55 IST" duration-ms="706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials  dashboard  http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method signature="AdminLogin(java.lang.String,java.lang.String)[pri:0, instance:jan1.Cross@5fbdfdcf]" started-at="2024-01-02T17:42:55 IST" name="AdminLogin" data-provider="dp" finished-at="2024-01-02T17:42:57 IST" duration-ms="1217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login success::http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard  dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:jan1.Cross@5fbdfdcf]" started-at="2024-01-02T17:42:57 IST" name="tearDown" finished-at="2024-01-02T17:42:57 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- jan1.Cross -->
+    </test> <!-- Chrometest1 -->
+    <test started-at="2024-01-02T17:42:57 IST" name="Firefoxtest1" finished-at="2024-01-02T17:43:09 IST" duration-ms="11742">
+      <class name="jan1.Cross">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:jan1.Cross@485966cc]" started-at="2024-01-02T17:42:57 IST" name="setup" finished-at="2024-01-02T17:43:02 IST" duration-ms="4826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AdminLogin(java.lang.String,java.lang.String)[pri:0, instance:jan1.Cross@485966cc]" started-at="2024-01-02T17:43:02 IST" name="AdminLogin" data-provider="dp" finished-at="2024-01-02T17:43:05 IST" duration-ms="3295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login success::http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard  dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method signature="AdminLogin(java.lang.String,java.lang.String)[pri:0, instance:jan1.Cross@485966cc]" started-at="2024-01-02T17:43:05 IST" name="AdminLogin" data-provider="dp" finished-at="2024-01-02T17:43:06 IST" duration-ms="615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials  dashboard  http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method signature="AdminLogin(java.lang.String,java.lang.String)[pri:0, instance:jan1.Cross@485966cc]" started-at="2024-01-02T17:43:06 IST" name="AdminLogin" data-provider="dp" finished-at="2024-01-02T17:43:06 IST" duration-ms="514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials  dashboard  http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method signature="AdminLogin(java.lang.String,java.lang.String)[pri:0, instance:jan1.Cross@485966cc]" started-at="2024-01-02T17:43:06 IST" name="AdminLogin" data-provider="dp" finished-at="2024-01-02T17:43:07 IST" duration-ms="1082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login success::http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard  dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:jan1.Cross@485966cc]" started-at="2024-01-02T17:43:07 IST" name="tearDown" finished-at="2024-01-02T17:43:09 IST" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- jan1.Cross -->
+    </test> <!-- Firefoxtest1 -->
+  </suite> <!-- CrossBrowser1 -->
+</testng-results>

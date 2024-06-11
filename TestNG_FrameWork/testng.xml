@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite10">
+  <test thread-count="5" name="Test10">
+    <classes>
+      <class name="dec31.Completeassert"/>
+      <class name="dec31.FifthTestNGClass"/>
+      <class name="dec31.AppUtil3"/>
+      <class name="dec31.AppUtil4"/>
+      <class name="dec31.AppUtil5"/>
+      <class name="dec31.Assert3"/>
+      <class name="dec31.Assert2"/>
+      <class name="dec31.FourthTestNGClass"/>
+      <class name="dec31.AppUtil"/>
+      <class name="dec31.SecondTestNGClass"/>
+      <class name="dec31.Assert1"/>
+      <class name="dec31.Assert"/>
+      <class name="dec31.FirstTestNGClass"/>
+      <class name="dec31.Dataprovider"/>
+      <class name="dec31.AppUtil2"/>
+      <class name="dec31.Dataprovider1"/>
+      <class name="dec31.ThirdTestNGClass"/>
+      <class name="dec31.Primus_parameters"/>
+    </classes>
+  </test> <!-- Test10 -->
+</suite> <!-- Suite10 -->
